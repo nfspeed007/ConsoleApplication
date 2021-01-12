@@ -31,9 +31,11 @@ namespace ConsoleApplication
             double width, height, woodLength, glassArea;
             string widthString, heightString;
 
+            Console.Write("Enter a width: ");
             widthString = Console.ReadLine();
             width = double.Parse(widthString);
 
+            Console.Write("Enter a height: ");
             heightString = Console.ReadLine();
             height = double.Parse(heightString);
 
